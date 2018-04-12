@@ -11,6 +11,7 @@ h1{
 }
 h2{
     font-size: 22px;
+    letter-spacing: 1px;
 }
 h3{
     font-size:18px;
@@ -40,6 +41,7 @@ input, button, submit { border-width: 0px; border-radius:4px; }
     display: flex; 
     margin: 0 auto 40px auto;
     width:460px;
+    clear:both;
 }
 
 .v_button_container{
@@ -349,4 +351,56 @@ td.profAnswer{
 .sp10{
     height:10px;
     width:100%;
+}
+
+.ansSelectWinContainer{
+    height:212px;
+    background-image: url(/images/selectAnswerBG.png);
+    position:absolute;
+    top:34%;
+    width:100%;
+    display: block;
+}
+
+.ansSelectBtnWrapper{
+    width:100%;
+}
+
+.currentAns{
+    width:87px;
+    min-width:87px;
+    font-size: 11px;
+    color:#fff;
+    text-align: center;
+    margin:auto;
+}
+.ansSelectBtnRow{
+    margin: 10px 20px;
+    display: flex;
+}
+.ansSelectCurrentRow{
+    margin: 10px 20px;
+    display: flex;
+}
+.selAnsTitle{
+    padding-top:20px;
+    color:#fff;
+}
+.currentBtn1{
+    display:block;
+}
+.currentBtn2{
+    display:block;
+}
+.currentBtn3{
+    display:block;
+}
+.currentBtn4{
+    display:block;
+}
+.currentBtn5{
+    display:none;
+}
+.currentBtn6{
+    display:none;
 }
