@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Start a New Quiz</title>
+    <link rel="stylesheet" type="text/css" href="/styles/styles.css">
+</head>
+
+<body>
+    <div class="quizContent_container">
+        <div class="quizContent_wrapper">
+            
+            <!-- Header -->
+            <div class="actvWin_header_container">
+                <div class="actvWin_TitleWrapper">
+                    <div class="actvWin_quizIcon"></div>
+                    <p class="actvWin_title">QUIZ</p>
+                </div>
+                <div class="actvWin_TimerWrapper">
+                    <p class="timerPositioning">sec</p>
+                    <p class="timerPositioning timer">32</p>
+                    <p class="timerPositioning">Time Left:</p>
+                </div>
+            </div>
+            
+            <!-- Answer Choice -->
+            <div class="ansSelectWinContainer">
+                <h2 class="clientSelAnswerTitle">Select the answer:</h2>
+                <div class="ansSelectBtnWrapper">
+                    <div class="ansSelectBtnRow">
+                        <button type="button" onclick="javascript:void(0);" class="quizBtns optionBtns clientAns1" id="currentBtn1">1</button>
+                        <button type="button" onclick="javascript:void(0);" class="quizBtns optionBtns clientAns2" id="currentBtn2">2</button>
+                        <button type="button" onclick="javascript:void(0);" class="quizBtns optionBtns clientAns3" id="currentBtn3">3</button>
+                        <button type="button" onclick="javascript:void(0);" class="quizBtns optionBtns clientAns4" id="currentBtn4">4</button>
+                        <button type="button" onclick="javascript:void(0);" class="quizBtns optionBtns clientAns5" id="currentBtn5">5</button>
+                        <button type="button" onclick="javascript:void(0);" class="quizBtns optionBtns clientAns6" id="currentBtn6">6</button>
+                    </div>
+                    <div class="ansSelectCurrentRow">
+                        <div class="currentAns clientAns" id="currentBtn1"><p class="clientAnsCurrent1">CURRENT</p></div>
+                        <div class="currentAns clientAns" id="currentBtn2"><p class="clientAnsCurrent2">CURRENT</p></div>
+                        <div class="currentAns clientAns" id="currentBtn3"><p class="clientAnsCurrent3">CURRENT</p></div>
+                        <div class="currentAns clientAns" id="currentBtn4"><p class="clientAnsCurrent4">CURRENT</p></div>
+                        <div class="currentAns clientAns" id="currentBtn5"><p id="clientAnsCurrent5">CURRENT</p></div>
+                        <div class="currentAns clientAns" id="currentBtn6"><p class="clientAnsCurrent6">CURRENT</p></div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+
+</html>
+

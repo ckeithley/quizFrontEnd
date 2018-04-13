@@ -62,7 +62,7 @@ input, button, submit { border-width: 0px; border-radius:4px; }
     cursor: pointer;
 }
 .optionBtns{
-    background-image: url(/images/btnSm-85x30.png);
+    background-image: url(../images/btnSm-85x30.png);
     width: 85px;
     min-width:85px;
     height: 31px;
@@ -73,12 +73,12 @@ input, button, submit { border-width: 0px; border-radius:4px; }
     color:#fff;
 }
 .actionBtn{
-    background-image: url(/images/btnLrg-110x40.png);
+    background-image: url(../images/btnLrg-110x40.png);
     width:109px;
     height: 40px;
 }
 .quizIcon{
-    background-image: url(/images/icon-Quiz.png);
+    background-image: url(../images/icon-Quiz.png);
     width: 36px;
     height: 33px;
     display:block;
@@ -89,19 +89,66 @@ input, button, submit { border-width: 0px; border-radius:4px; }
 
 .startBtnArw{
     transition: all 0.1s ease;
-    background-image: url(/images/arrowLt.png);
+    background-image: url(../images/arrowLt.png);
     display: block;
     width:12px;
     height:15px;
 }
 .startBtnArw:hover{
-    background-image: url(/images/arrowLt.png);
+    background-image: url(../images/arrowLt.png);
 }
 .actionBtn:hover{
     background-color: #ebb111;
     color:#fff;
 }
 
+/* Answer Option Button state styling */
+#ansNumBtn_2{
+    background-color: #fff;
+    color: #717a83;
+}
+  /* Example of chosen Answer */
+#ansNumBtn_3{
+    background-color: #ebb111;
+    color: #fff;
+}
+#ansNumBtn_4{
+    background-color: #fff;
+    color: #717a83;
+}
+#ansNumBtn_5{
+    background-color: #fff;
+    color: #717a83;
+}
+#ansNumBtn_6{
+    background-color: #fff;
+    color: #717a83;
+}
+
+/* Time Limit Button state styling*/
+#ansTimeBtn_30{
+    background-color: #fff;
+    color: #717a83;
+}
+    /* Example of chosen Answer */
+#ansTimeBtn_60{
+    background-color: #ebb111;
+    color: #fff;
+}
+#ansTimeBtn_120{
+    background-color: #fff;
+    color: #717a83;
+}
+#ansTimeBtn_240{
+    background-color: #fff;
+    color: #717a83;;
+}
+#ansTimeBtn_300{
+    background-color: #fff;
+    color: #717a83;
+}
+
+/* Active Quiz Window Styles */
 .actvWin_header_container{
     width:100%;
     padding:0 20px;
@@ -121,7 +168,7 @@ input, button, submit { border-width: 0px; border-radius:4px; }
 }
 
 .actvWin_quizIcon{
-    background-image: url(/images/icon-Quiz.png);
+    background-image: url(../images/icon-Quiz.png);
     background-position: center;
     width: 36px;
     height: 33px;
@@ -245,7 +292,7 @@ table.scroll thead th:last-child {
 
     /* INDIVIDUAL ANSWERS */
 .iconNoAnswer{
-    background-image: url(/images/noAnswer.png);
+    background-image: url(../images/noAnswer.png);
     display:block;
     width:28px;
     height:6px;
@@ -330,7 +377,7 @@ td.profAnswer{
 .hostCtrlBtns_container{
     height:100px;
     width:100%;
-    background-image: url(/images/host_btnbg_1x100.png);
+    background-image: url(../images/host_btnbg_1x100.png);
     display: block;
 }
 .hostBtnsWrapper {
@@ -399,21 +446,147 @@ td.profAnswer{
     padding-top:20px;
     color:#fff;
 }
-.currentBtn1{
+
+
+/* Answer Buttons On/Off */
+#currentBtn1{
     display:block;
 }
-.currentBtn2{
+#currentBtn2{
     display:block;
 }
-.currentBtn3{
+#currentBtn3{
     display:block;
 }
-.currentBtn4{
+#currentBtn4{
     display:block;
 }
-.currentBtn5{
+#currentBtn5{
     display:none;
 }
-.currentBtn6{
+#currentBtn6{
     display:none;
 }
+
+
+  /* Host Select Answer Button Selected */
+.hostAns1{
+    background-color:#fff;
+    color:#717a83;
+}
+    /* Example of selected button */
+.hostAns2{
+    background-color:#ebb111;
+    color:#fff;
+}
+.hostAns3{
+    background-color:#fff;
+    color:#717a83;
+}
+.hostAns4{
+    background-color:#fff;
+    color:#717a83;
+}
+.hostAns5{
+    background-color:#fff;
+    color:#717a83;
+}
+.hostAns6{
+    background-color:#fff;
+    color:#717a83;
+}
+
+
+  /* Current Text Under Selected Text */
+.hostAnsCurrent1{
+    display:none;
+}
+    /* Example of selected button */
+.hostAnsCurrent2{ 
+    display:block;
+}
+.hostAnsCurrent3{
+    display:none;
+}
+.hostAnsCurrent4{
+    display:none;
+}
+.hostAnsCurrent5{
+    display:none;
+}
+.hostAnsCurrent6{
+    display:none;
+}
+
+
+/* Client Window Styling */
+.clientSelAnswerTitle{
+    padding-top:60px;
+}
+.clientAns{
+    color: #717a83;
+}
+.incorrectAnsMsg{
+    display: block;
+    line-height: 60px;
+}
+.correctAnsMsg{
+    font-weight: bold;
+    display: none;
+    line-height: 60px;
+}
+p.answerNumPresented{
+    font-size: 60px;
+    font-weight: bold;
+    color: #ebb111;
+}
+
+  /* Client Select Answer Button Selected */
+.clientAns1{
+    background-color:#fff;
+    color:#717a83;
+}
+    /* Example of selected button */
+.clientAns2{
+    background-color:#ebb111;
+    color:#fff;
+}
+.clientAns3{
+    background-color:#fff;
+    color:#717a83;
+}
+.clientAns4{
+    background-color:#fff;
+    color:#717a83;
+}
+.clientAns5{
+    background-color:#fff;
+    color:#717a83;
+}
+.clientAns6{
+    background-color:#fff;
+    color:#717a83;
+}
+
+
+  /* Current Text Under Selected Text */
+.clientAnsCurrent1{
+    display:none;
+}
+    /* Example of selected button */
+.clientAnsCurrent2{ 
+    display:block;
+}
+.clientAnsCurrent3{
+    display:none;
+}
+.clientAnsCurrent4{
+    display:none;
+}
+.clientAnsCurrent5{
+    display:none;
+}
+.clientAnsCurrent6{
+    display:none;
+}
+
