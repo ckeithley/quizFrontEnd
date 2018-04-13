@@ -353,13 +353,26 @@ td.profAnswer{
     width:100%;
 }
 
+/* Answer Select Window Styles */
+.ansSelectDisplayToggle{
+    display:block;
+}
+.ansUnderlay{
+    background-color: black;
+    position: absolute;
+    top:0;
+    height:100%;
+    width:100%;
+    opacity: .7;
+}
 .ansSelectWinContainer{
     height:212px;
-    background-image: url(/images/selectAnswerBG.png);
     position:absolute;
     top:34%;
-    width:100%;
-    display: block;
+    width:98%;
+    left: 0;
+    right: 0;
+    margin: auto
 }
 
 .ansSelectBtnWrapper{
